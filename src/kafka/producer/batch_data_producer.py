@@ -22,7 +22,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 #Kafka Variables
-KAFKA_BOOTSTRAP_SERVERS = "localhost:29092"
+KAFKA_BOOTSTRAP_SERVERS = os.getenv('KAFKA_BOOTSTRAP_SERVERS')
 KAFKA_TOPIC_BATCH = os.getenv('KAFKA_TOPIC_BATCH')
 
 #Define stocks to collect for historical data
@@ -44,11 +44,11 @@ class HistoricalDataCollector:
 
         self.logger = logger
         self.topic = topic
-
+        #self.bootstrap_servers = bootstrap_servers 
 
         #Create producer instance
         self.producer = {
-            "bootstrap.servers": bootstrap_servers,
+            "bootstrap.servers": "localhost:29092",
             "client.id": "historical-data-collector-0",
 
         }
