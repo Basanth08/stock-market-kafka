@@ -2233,3 +2233,371 @@ File Path                                        PID  Runtime      # DAGs    # E
 /opt/airflow/dags/stock_market_batch_dag.py     7128  0.04s             0           1  0.15s           2025-08-13T01:18:01
 /opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.18s           2025-08-13T01:18:06
 ================================================================================
+[2025-08-13T01:18:41.818+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.27s           2025-08-13T01:18:32
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.26s           2025-08-13T01:18:38
+================================================================================
+[2025-08-13T01:19:12.385+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.08s           2025-08-13T01:19:03
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.15s           2025-08-13T01:19:09
+================================================================================
+[2025-08-13T01:19:43.068+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.10s           2025-08-13T01:19:33
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.14s           2025-08-13T01:19:40
+================================================================================
+[2025-08-13T01:20:13.724+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.12s           2025-08-13T01:20:04
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.17s           2025-08-13T01:20:10
+================================================================================
+[2025-08-13T01:20:27.206+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-08-13T01:20:27.219+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-08-13T01:20:43.740+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.11s           2025-08-13T01:20:35
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.15s           2025-08-13T01:20:41
+================================================================================
+[2025-08-13T01:21:14.524+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.25s           2025-08-13T01:21:06
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.16s           2025-08-13T01:21:12
+================================================================================
+[2025-08-13T01:21:44.565+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.13s           2025-08-13T01:21:37
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.14s           2025-08-13T01:21:43
+================================================================================
+[2025-08-13T01:22:15.336+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.14s           2025-08-13T01:22:08
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.16s           2025-08-13T01:22:14
+================================================================================
+[2025-08-13T01:22:45.433+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.11s           2025-08-13T01:22:39
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.19s           2025-08-13T01:22:45
+================================================================================
+[2025-08-13T01:23:15.787+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.12s           2025-08-13T01:23:09
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.16s           2025-08-13T01:23:06
+================================================================================
+[2025-08-13T01:23:46.441+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.07s           2025-08-13T01:23:40
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.12s           2025-08-13T01:23:37
+================================================================================
+[2025-08-13T01:24:17.060+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.04s           2025-08-13T01:24:11
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.15s           2025-08-13T01:24:08
+================================================================================
+[2025-08-13T01:24:47.790+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.10s           2025-08-13T01:24:41
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.15s           2025-08-13T01:24:38
+================================================================================
+[2025-08-13T01:25:18.318+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.06s           2025-08-13T01:25:12
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.18s           2025-08-13T01:25:10
+================================================================================
+[2025-08-13T01:25:27.462+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-08-13T01:25:27.485+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-08-13T01:25:48.864+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.08s           2025-08-13T01:25:42
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.29s           2025-08-13T01:25:41
+================================================================================
+[2025-08-13T01:26:19.422+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.06s           2025-08-13T01:26:13
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.16s           2025-08-13T01:26:12
+================================================================================
+[2025-08-13T01:26:50.186+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.06s           2025-08-13T01:26:44
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.17s           2025-08-13T01:26:43
+================================================================================
+[2025-08-13T01:27:20.986+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.10s           2025-08-13T01:27:14
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.17s           2025-08-13T01:27:13
+================================================================================
+[2025-08-13T01:27:51.108+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.10s           2025-08-13T01:27:46
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.13s           2025-08-13T01:27:46
+================================================================================
+[2025-08-13T01:28:21.844+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.10s           2025-08-13T01:28:16
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.12s           2025-08-13T01:28:16
+================================================================================
+[2025-08-13T01:28:52.496+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.09s           2025-08-13T01:28:47
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.13s           2025-08-13T01:28:47
+================================================================================
+[2025-08-13T01:29:23.075+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.08s           2025-08-13T01:29:18
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.10s           2025-08-13T01:29:18
+================================================================================
+[2025-08-13T01:29:53.806+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.12s           2025-08-13T01:29:48
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.13s           2025-08-13T01:29:48
+================================================================================
+[2025-08-13T01:30:24.671+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.11s           2025-08-13T01:30:19
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.16s           2025-08-13T01:30:19
+================================================================================
+[2025-08-13T01:30:27.705+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-08-13T01:30:27.730+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-08-13T01:30:54.686+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.10s           2025-08-13T01:30:50
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.12s           2025-08-13T01:30:50
+================================================================================
+[2025-08-13T01:31:25.623+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.13s           2025-08-13T01:31:21
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.17s           2025-08-13T01:31:21
+================================================================================
+[2025-08-13T01:31:56.449+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.17s           2025-08-13T01:31:52
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.18s           2025-08-13T01:31:52
+================================================================================
+[2025-08-13T01:32:27.295+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.23s           2025-08-13T01:32:23
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.24s           2025-08-13T01:32:23
+================================================================================
+[2025-08-13T01:32:58.129+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.14s           2025-08-13T01:32:54
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.15s           2025-08-13T01:32:54
+================================================================================
+[2025-08-13T01:33:28.247+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.26s           2025-08-13T01:33:25
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.27s           2025-08-13T01:33:25
+================================================================================
+[2025-08-13T01:33:59.034+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.14s           2025-08-13T01:33:55
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.13s           2025-08-13T01:33:56
+================================================================================
+[2025-08-13T01:34:29.826+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.14s           2025-08-13T01:34:26
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.15s           2025-08-13T01:34:26
+================================================================================
+[2025-08-13T01:35:00.108+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.13s           2025-08-13T01:34:58
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.13s           2025-08-13T01:34:58
+================================================================================
+[2025-08-13T01:35:27.880+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-08-13T01:35:27.895+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-08-13T01:35:30.122+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.18s           2025-08-13T01:35:29
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.19s           2025-08-13T01:35:29
+================================================================================
+[2025-08-13T01:36:01.040+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.16s           2025-08-13T01:36:00
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.18s           2025-08-13T01:36:00
+================================================================================
+[2025-08-13T01:36:31.938+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.17s           2025-08-13T01:36:30
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.15s           2025-08-13T01:36:30
+================================================================================
+[2025-08-13T01:37:02.197+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py     8223  0.07s             0           1  0.19s           2025-08-13T01:36:51
+/opt/airflow/dags/scripts/check_minio_file.py   8226  0.01s             0           0  0.19s           2025-08-13T01:36:51
+================================================================================
+[2025-08-13T01:37:33.242+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py     8253  0.03s             0           1  0.10s           2025-08-13T01:37:23
+/opt/airflow/dags/scripts/check_minio_file.py   8256  0.01s             0           0  0.12s           2025-08-13T01:37:23
+================================================================================
+[2025-08-13T01:38:03.777+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.35s           2025-08-13T01:37:54
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.34s           2025-08-13T01:37:54
+================================================================================
+[2025-08-13T01:38:34.648+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/stock_market_batch_dag.py                             0           1  0.11s           2025-08-13T01:38:25
+/opt/airflow/dags/scripts/check_minio_file.py                           0           0  0.13s           2025-08-13T01:38:25
+================================================================================
