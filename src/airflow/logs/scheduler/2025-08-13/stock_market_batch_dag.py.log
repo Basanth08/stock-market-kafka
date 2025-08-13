@@ -14494,3 +14494,267 @@ Traceback (most recent call last):
 airflow.exceptions.DuplicateTaskIdFound: Task id 'fetch_historical_data' has already been added to the DAG
 [2025-08-13T01:43:06.638+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market_batch_dag.py
 [2025-08-13T01:43:06.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_batch_dag.py took 0.139 seconds
+[2025-08-13T01:43:16.904+0000] {processor.py:161} INFO - Started process (PID=8583) to work on /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:43:16.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_batch_dag.py for tasks to queue
+[2025-08-13T01:43:16.907+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:43:16.907+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:43:16.926+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:43:16.921+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/stock_market_batch_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market_batch_dag.py", line 34, in <module>
+    consume_historical_data = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'fetch_historical_data' has already been added to the DAG
+[2025-08-13T01:43:16.927+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:43:16.957+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_batch_dag.py took 0.067 seconds
+[2025-08-13T01:43:27.128+0000] {processor.py:161} INFO - Started process (PID=8593) to work on /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:43:27.132+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_batch_dag.py for tasks to queue
+[2025-08-13T01:43:27.133+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:43:27.133+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:43:27.164+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:43:27.158+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/stock_market_batch_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market_batch_dag.py", line 34, in <module>
+    consume_historical_data = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'fetch_historical_data' has already been added to the DAG
+[2025-08-13T01:43:27.164+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:43:27.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_batch_dag.py took 0.084 seconds
+[2025-08-13T01:43:37.415+0000] {processor.py:161} INFO - Started process (PID=8603) to work on /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:43:37.420+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_batch_dag.py for tasks to queue
+[2025-08-13T01:43:37.422+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:43:37.421+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:43:37.443+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:43:37.439+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/stock_market_batch_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market_batch_dag.py", line 34, in <module>
+    consume_historical_data = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'fetch_historical_data' has already been added to the DAG
+[2025-08-13T01:43:37.443+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:43:37.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_batch_dag.py took 0.070 seconds
+[2025-08-13T01:43:47.989+0000] {processor.py:161} INFO - Started process (PID=8613) to work on /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:43:47.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_batch_dag.py for tasks to queue
+[2025-08-13T01:43:47.998+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:43:47.996+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:43:48.039+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:43:48.023+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/stock_market_batch_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market_batch_dag.py", line 34, in <module>
+    consume_historical_data = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'fetch_historical_data' has already been added to the DAG
+[2025-08-13T01:43:48.039+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:43:48.095+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_batch_dag.py took 0.152 seconds
+[2025-08-13T01:43:58.345+0000] {processor.py:161} INFO - Started process (PID=8623) to work on /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:43:58.349+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_batch_dag.py for tasks to queue
+[2025-08-13T01:43:58.352+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:43:58.351+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:43:58.394+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:43:58.381+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/stock_market_batch_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market_batch_dag.py", line 34, in <module>
+    consume_historical_data = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'fetch_historical_data' has already been added to the DAG
+[2025-08-13T01:43:58.395+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:43:58.438+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_batch_dag.py took 0.112 seconds
+[2025-08-13T01:44:08.648+0000] {processor.py:161} INFO - Started process (PID=8633) to work on /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:44:08.651+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_batch_dag.py for tasks to queue
+[2025-08-13T01:44:08.652+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:44:08.651+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:44:08.682+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:44:08.676+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/stock_market_batch_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market_batch_dag.py", line 34, in <module>
+    consume_historical_data = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'fetch_historical_data' has already been added to the DAG
+[2025-08-13T01:44:08.683+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:44:08.730+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_batch_dag.py took 0.095 seconds
+[2025-08-13T01:44:18.975+0000] {processor.py:161} INFO - Started process (PID=8643) to work on /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:44:18.980+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_batch_dag.py for tasks to queue
+[2025-08-13T01:44:18.981+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:44:18.980+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:44:19.010+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:44:19.000+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/stock_market_batch_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market_batch_dag.py", line 34, in <module>
+    consume_historical_data = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'fetch_historical_data' has already been added to the DAG
+[2025-08-13T01:44:19.010+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:44:19.047+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_batch_dag.py took 0.088 seconds
+[2025-08-13T01:44:29.234+0000] {processor.py:161} INFO - Started process (PID=8653) to work on /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:44:29.238+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_batch_dag.py for tasks to queue
+[2025-08-13T01:44:29.239+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:44:29.239+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:44:29.263+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:44:29.257+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/stock_market_batch_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market_batch_dag.py", line 34, in <module>
+    consume_historical_data = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'fetch_historical_data' has already been added to the DAG
+[2025-08-13T01:44:29.265+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:44:29.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_batch_dag.py took 0.076 seconds
+[2025-08-13T01:44:39.567+0000] {processor.py:161} INFO - Started process (PID=8663) to work on /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:44:39.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_batch_dag.py for tasks to queue
+[2025-08-13T01:44:39.573+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:44:39.572+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:44:39.608+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:44:39.599+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/stock_market_batch_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market_batch_dag.py", line 34, in <module>
+    consume_historical_data = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'fetch_historical_data' has already been added to the DAG
+[2025-08-13T01:44:39.609+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:44:39.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_batch_dag.py took 0.096 seconds
+[2025-08-13T01:44:49.971+0000] {processor.py:161} INFO - Started process (PID=8673) to work on /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:44:49.974+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_batch_dag.py for tasks to queue
+[2025-08-13T01:44:49.977+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:44:49.976+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:44:50.008+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:44:49.997+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/stock_market_batch_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market_batch_dag.py", line 34, in <module>
+    consume_historical_data = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'fetch_historical_data' has already been added to the DAG
+[2025-08-13T01:44:50.008+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:44:50.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_batch_dag.py took 0.075 seconds
+[2025-08-13T01:45:00.269+0000] {processor.py:161} INFO - Started process (PID=8683) to work on /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:45:00.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_batch_dag.py for tasks to queue
+[2025-08-13T01:45:00.273+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:45:00.273+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:45:00.303+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:45:00.294+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/stock_market_batch_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/stock_market_batch_dag.py", line 34, in <module>
+    consume_historical_data = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 152, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'fetch_historical_data' has already been added to the DAG
+[2025-08-13T01:45:00.304+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/stock_market_batch_dag.py
+[2025-08-13T01:45:00.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_batch_dag.py took 0.090 seconds

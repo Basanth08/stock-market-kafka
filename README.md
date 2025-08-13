@@ -14,7 +14,7 @@
 
 ### **Enterprise Data Pipeline Architecture**
 
-![Data Pipeline Architecture](images/Architecture.jpg)
+![Data Pipeline Architecture](images/plan.jpg)
 
 **Three-Layer Architecture Design:**
 
