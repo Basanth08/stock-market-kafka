@@ -28,7 +28,7 @@ logger = logging.getLogger(__name__)
 
 KAFKA_BOOTSTRAP_SERVERS = "localhost:29092"
 KAFKA_TOPIC_REALTIME = os.getenv('KAFKA_TOPIC_REALTIME')
-KAFKA_GROUP_ID =  os.getenv("KAFAK_GROUP_REALTIME_ID")
+KAFKA_GROUP_ID =  os.getenv("KAFKA_GROUP_REALTIME_ID")
 
 #MinIO configuration
 MINIO_ACCESS_KEY = os.getenv('MINIO_ACCESS_KEY')

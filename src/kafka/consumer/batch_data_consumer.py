@@ -25,7 +25,7 @@ logger = logging.getLogger(__name__)
 
 KAFKA_BOOTSTRAP_SERVERS = os.getenv('KAFKA_BOOTSTRAP_SERVERS', 'localhost:29092')
 KAFKA_TOPIC_BATCH = os.getenv('KAFKA_TOPIC_BATCH', 'stock_market_batch')
-KAFKA_GROUP_ID =  os.getenv("KAFKA_GROUP_BATCH_ID", "stock-market-batch-consumer-group")
+KAFKA_GROUP_ID =  os.getenv("KAFKA_GROUP_BATCH_ID", "stock-market-batch-consumer-group-v2")
 
 #MinIO configuration
 MINIO_ACCESS_KEY = os.getenv('MINIO_ACCESS_KEY')
