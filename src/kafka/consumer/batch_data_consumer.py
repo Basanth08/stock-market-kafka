@@ -23,9 +23,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-KAFKA_BOOTSTRAP_SERVERS = "localhost:29092"
-KAFKA_TOPIC_BATCH = os.getenv('KAFKA_TOPIC_BATCH')
-KAFKA_GROUP_ID =  os.getenv("KAFAK_GROUP_BATCH_ID")
+KAFKA_BOOTSTRAP_SERVERS = os.getenv('KAFKA_BOOTSTRAP_SERVERS', 'localhost:29092')
+KAFKA_TOPIC_BATCH = os.getenv('KAFKA_TOPIC_BATCH', 'stock_market_batch')
+KAFKA_GROUP_ID =  os.getenv("KAFKA_GROUP_BATCH_ID", "stock-market-batch-consumer-group")
 
 #MinIO configuration
 MINIO_ACCESS_KEY = os.getenv('MINIO_ACCESS_KEY')
@@ -64,6 +64,11 @@ def main():
         'auto.offset.reset': 'earliest',
         'enable.auto.commit': False,
     }
+    
+    logger.info(f"Kafka configuration: {conf}")
+    logger.info(f"Connecting to: {KAFKA_BOOTSTRAP_SERVERS}")
+    logger.info(f"Topic: {KAFKA_TOPIC_BATCH}")
+    logger.info(f"Group ID: {KAFKA_GROUP_ID}")
 
     consumer = Consumer(conf)
     consumer.subscribe([KAFKA_TOPIC_BATCH])
