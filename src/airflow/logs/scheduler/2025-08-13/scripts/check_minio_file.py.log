@@ -3068,3 +3068,66 @@
 [2025-08-13T01:45:00.275+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:45:00.275+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/check_minio_file.py
 [2025-08-13T01:45:00.365+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/check_minio_file.py
 [2025-08-13T01:45:00.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/check_minio_file.py took 0.111 seconds
+[2025-08-13T01:45:10.560+0000] {processor.py:161} INFO - Started process (PID=8696) to work on /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:45:10.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/check_minio_file.py for tasks to queue
+[2025-08-13T01:45:10.565+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:45:10.564+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:45:10.667+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:45:10.676+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/check_minio_file.py took 0.123 seconds
+[2025-08-13T01:45:20.821+0000] {processor.py:161} INFO - Started process (PID=8706) to work on /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:45:20.825+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/check_minio_file.py for tasks to queue
+[2025-08-13T01:45:20.828+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:45:20.827+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:45:20.914+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:45:20.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/check_minio_file.py took 0.109 seconds
+[2025-08-13T01:45:31.111+0000] {processor.py:161} INFO - Started process (PID=8716) to work on /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:45:31.112+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/check_minio_file.py for tasks to queue
+[2025-08-13T01:45:31.114+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:45:31.113+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:45:31.203+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:45:31.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/check_minio_file.py took 0.110 seconds
+[2025-08-13T01:45:41.497+0000] {processor.py:161} INFO - Started process (PID=8726) to work on /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:45:41.500+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/check_minio_file.py for tasks to queue
+[2025-08-13T01:45:41.502+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:45:41.501+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:45:41.650+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:45:41.660+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/check_minio_file.py took 0.177 seconds
+[2025-08-13T01:45:51.940+0000] {processor.py:161} INFO - Started process (PID=8736) to work on /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:45:51.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/check_minio_file.py for tasks to queue
+[2025-08-13T01:45:51.948+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:45:51.947+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:45:52.116+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:45:52.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/check_minio_file.py took 0.198 seconds
+[2025-08-13T01:46:02.329+0000] {processor.py:161} INFO - Started process (PID=8746) to work on /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:46:02.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/check_minio_file.py for tasks to queue
+[2025-08-13T01:46:02.334+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:46:02.334+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:46:02.446+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:46:02.468+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/check_minio_file.py took 0.145 seconds
+[2025-08-13T01:46:12.759+0000] {processor.py:161} INFO - Started process (PID=8756) to work on /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:46:12.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/check_minio_file.py for tasks to queue
+[2025-08-13T01:46:12.765+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:46:12.764+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:46:13.079+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:46:13.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/check_minio_file.py took 0.456 seconds
+[2025-08-13T01:46:23.470+0000] {processor.py:161} INFO - Started process (PID=8766) to work on /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:46:23.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/check_minio_file.py for tasks to queue
+[2025-08-13T01:46:23.478+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:46:23.477+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:46:23.626+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:46:23.660+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/check_minio_file.py took 0.203 seconds
+[2025-08-13T01:46:33.903+0000] {processor.py:161} INFO - Started process (PID=8776) to work on /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:46:33.909+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/check_minio_file.py for tasks to queue
+[2025-08-13T01:46:33.911+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:46:33.910+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:46:34.033+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:46:34.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/check_minio_file.py took 0.147 seconds
+[2025-08-13T01:46:44.228+0000] {processor.py:161} INFO - Started process (PID=8786) to work on /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:46:44.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/check_minio_file.py for tasks to queue
+[2025-08-13T01:46:44.241+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:46:44.239+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:46:44.412+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:46:44.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/check_minio_file.py took 0.213 seconds
+[2025-08-13T01:46:54.610+0000] {processor.py:161} INFO - Started process (PID=8796) to work on /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:46:54.619+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/check_minio_file.py for tasks to queue
+[2025-08-13T01:46:54.625+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:46:54.622+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:46:54.776+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:46:54.786+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/check_minio_file.py took 0.202 seconds
+[2025-08-13T01:47:05.012+0000] {processor.py:161} INFO - Started process (PID=8805) to work on /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:47:05.019+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/check_minio_file.py for tasks to queue
+[2025-08-13T01:47:05.022+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:47:05.022+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:47:05.173+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:47:05.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/check_minio_file.py took 0.209 seconds
+[2025-08-13T01:47:15.314+0000] {processor.py:161} INFO - Started process (PID=8816) to work on /opt/airflow/dags/scripts/check_minio_file.py
+[2025-08-13T01:47:15.317+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/check_minio_file.py for tasks to queue
+[2025-08-13T01:47:15.319+0000] {logging_mixin.py:188} INFO - [2025-08-13T01:47:15.319+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/check_minio_file.py
