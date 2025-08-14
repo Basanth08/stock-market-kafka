@@ -2,17 +2,22 @@ import os
 import sys 
 import traceback
 from datetime import datetime, timedelta
+from dotenv import load_dotenv
 
 from pyspark.sql import SparkSession
 from pyspark.sql import functions as F
 from pyspark.sql.window import Window
 from pyspark.sql.types import *
 
+import logging 
+from minio import Minio
 
-MINIO_ACCESS_KEY = "minioadmin"
-MINIO_SECRET_KEY = "minioadmin"
-MINIO_BUCKET = "stock-market-data"
-MINIO_ENDPOINT = "http://minio:9000"
+load_dotenv()
+
+MINIO_ACCESS_KEY = os.getenv('MINIO_ACCESS_KEY', 'minioadmin')
+MINIO_SECRET_KEY = os.getenv('MINIO_SECRET_KEY', 'minioadmin')
+MINIO_BUCKET = os.getenv('MINIO_BUCKET', 'stock-market-data')
+MINIO_ENDPOINT = os.getenv('MINIO_ENDPOINT', 'http://minio:9000')
 
 def create_spark_session():
     print("Initialzing Spark Session with S3 Configuartion") 
@@ -101,7 +106,7 @@ def process_stock_data(df):
 
 
 def write_to_s3(df, date=None):
-    print("\n------ Writng processed data to s3")
+    print("\n------ Writing processed data to s3")
 
     if df is None:
         print("No data to write")
@@ -109,6 +114,8 @@ def write_to_s3(df, date=None):
     
     if date is None:
         processed_date = datetime.now().strftime("%Y-%m-%d")
+    else:
+        processed_date = date
 
     output_path = f"s3a://{MINIO_BUCKET}/processed/historical/date={processed_date}"
     print(f"Writing processed data to: {output_path}")
@@ -126,7 +133,13 @@ def main():
     print("STARTING STOCK MARKET BATCH PROCESSOR")
     print("=============================================\n")
     
-    date = None
+    # Get date from command line arguments
+    if len(sys.argv) > 1:
+        date = sys.argv[1]
+        print(f"Processing data for date: {date}")
+    else:
+        date = None
+        print("No date specified, using current date")
 
     spark = create_spark_session()
 
@@ -137,7 +150,7 @@ def main():
             processed_df = process_stock_data(df)
 
             if processed_df is not None:
-                write_to_s3(processed_df)
+                write_to_s3(processed_df, date)
                 print("Data written to S3")
             else:
                 print("Error processing data")
