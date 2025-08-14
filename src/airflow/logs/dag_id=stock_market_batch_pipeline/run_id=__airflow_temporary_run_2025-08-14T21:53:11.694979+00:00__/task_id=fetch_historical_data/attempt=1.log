@@ -1,0 +1,28 @@
+[2025-08-14T21:53:12.429+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_market_batch_pipeline.fetch_historical_data __airflow_temporary_run_2025-08-14T21:53:11.694979+00:00__ [queued]>
+[2025-08-14T21:53:12.436+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_market_batch_pipeline.fetch_historical_data __airflow_temporary_run_2025-08-14T21:53:11.694979+00:00__ [queued]>
+[2025-08-14T21:53:12.436+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-08-14T21:53:12.447+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): fetch_historical_data> on 2025-08-14 00:00:00+00:00
+[2025-08-14T21:53:12.451+0000] {standard_task_runner.py:60} INFO - Started process 32091 to run task
+[2025-08-14T21:53:12.454+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'stock_market_batch_pipeline', 'fetch_historical_data', '__***_temporary_run_2025-08-14T21:53:11.694979+00:00__', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/stock_market_batch_dag.py', '--cfg-path', '/tmp/tmpdwn6zeq5']
+[2025-08-14T21:53:12.459+0000] {standard_task_runner.py:88} INFO - Job 48: Subtask fetch_historical_data
+[2025-08-14T21:53:12.499+0000] {task_command.py:423} INFO - Running <TaskInstance: stock_market_batch_pipeline.fetch_historical_data __airflow_temporary_run_2025-08-14T21:53:11.694979+00:00__ [running]> on host 0181ae2045ff
+[2025-08-14T21:53:12.554+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Basanth Kumar' AIRFLOW_CTX_DAG_ID='stock_market_batch_pipeline' AIRFLOW_CTX_TASK_ID='fetch_historical_data' AIRFLOW_CTX_EXECUTION_DATE='2025-08-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='__***_temporary_run_2025-08-14T21:53:11.694979+00:00__'
+[2025-08-14T21:53:12.555+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-08-14T21:53:12.556+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n    unset PYTHONNOUSERSITE\n    export PYTHONPATH=/home/***/.local/lib/python3.8/site-packages\n    cd /opt/***/dags/scripts\n    python batch_data_producer.py 2025-08-14\n    ']
+[2025-08-14T21:53:12.566+0000] {subprocess.py:86} INFO - Output:
+[2025-08-14T21:53:12.991+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2025-08-14T21:53:12.992+0000] {subprocess.py:93} INFO -   File "batch_data_producer.py", line 8, in <module>
+[2025-08-14T21:53:12.992+0000] {subprocess.py:93} INFO -     import yfinance as yf
+[2025-08-14T21:53:12.993+0000] {subprocess.py:93} INFO - ModuleNotFoundError: No module named 'yfinance'
+[2025-08-14T21:53:13.060+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2025-08-14T21:53:13.070+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-08-14T21:53:13.073+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=stock_market_batch_pipeline, task_id=fetch_historical_data, execution_date=20250814T000000, start_date=20250814T215312, end_date=20250814T215313
+[2025-08-14T21:53:13.086+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 48 for task fetch_historical_data (Bash command failed. The command returned a non-zero exit code 1.; 32091)
+[2025-08-14T21:53:13.094+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-08-14T21:53:13.113+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

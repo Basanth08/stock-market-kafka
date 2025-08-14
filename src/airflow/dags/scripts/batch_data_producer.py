@@ -22,8 +22,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 #Kafka Variables
-KAFKA_BOOTSTRAP_SERVERS = "kafka:9092"
-KAFKA_TOPIC_BATCH = "stock-market-batch"
+KAFKA_BOOTSTRAP_SERVERS = os.getenv('KAFKA_BOOTSTRAP_SERVERS', 'host.docker.internal:29092')
+KAFKA_TOPIC_BATCH = os.getenv('KAFKA_TOPIC_BATCH', 'stock_market_batch')
 
 #Define stocks to collect for historical data
 STOCKS = [
@@ -47,15 +47,16 @@ class HistoricalDataCollector:
 
 
         #Create producer instance
-        self.producer = {
-            "bootstrap.servers": bootstrap_servers,
+        producer_config = {
+            "bootstrap.servers": "kafka:9092",
             "client.id": "historical-data-collector-0",
-
         }
+        
+        self.logger.info(f"Producer config: {producer_config}")
 
         try:
-            self.producer = Producer(self.producer)
-            self.logger.info(f"Producer initialized. Sending to: {bootstrap_servers}")
+            self.producer = Producer(producer_config)
+            self.logger.info(f"Producer initialized. Sending to: kafka:9092")
         except Exception as e:
             self.logger.error(f"Failed to create Kafka Producer {e}")
             raise

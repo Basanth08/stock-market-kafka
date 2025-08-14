@@ -1,0 +1,22 @@
+[2025-08-14T22:21:04.221+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_market_pipeline.consume_historical_data manual__2025-08-14T22:21:00.726473+00:00 [queued]>
+[2025-08-14T22:21:04.225+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_market_pipeline.consume_historical_data manual__2025-08-14T22:21:00.726473+00:00 [queued]>
+[2025-08-14T22:21:04.226+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-08-14T22:21:04.232+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): consume_historical_data> on 2025-08-14 22:21:00.726473+00:00
+[2025-08-14T22:21:04.235+0000] {standard_task_runner.py:60} INFO - Started process 34346 to run task
+[2025-08-14T22:21:04.238+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'stock_market_pipeline', 'consume_historical_data', 'manual__2025-08-14T22:21:00.726473+00:00', '--job-id', '63', '--raw', '--subdir', 'DAGS_FOLDER/stock_market_pipeline.py', '--cfg-path', '/tmp/tmp_wnbie_3']
+[2025-08-14T22:21:04.239+0000] {standard_task_runner.py:88} INFO - Job 63: Subtask consume_historical_data
+[2025-08-14T22:21:04.267+0000] {task_command.py:423} INFO - Running <TaskInstance: stock_market_pipeline.consume_historical_data manual__2025-08-14T22:21:00.726473+00:00 [running]> on host 0181ae2045ff
+[2025-08-14T22:21:04.316+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Basanth Kumar' AIRFLOW_CTX_DAG_ID='stock_market_pipeline' AIRFLOW_CTX_TASK_ID='consume_historical_data' AIRFLOW_CTX_EXECUTION_DATE='2025-08-14T22:21:00.726473+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-08-14T22:21:00.726473+00:00'
+[2025-08-14T22:21:04.317+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-08-14T22:21:04.318+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n    echo "Starting consume_historical_data task"\n    cd /opt/***/dags/scripts\n    python batch_data_consumer.py 2025-08-14\n    echo "Task completed successfully"\n    ']
+[2025-08-14T22:21:04.333+0000] {subprocess.py:86} INFO - Output:
+[2025-08-14T22:21:04.336+0000] {subprocess.py:93} INFO - Starting consume_historical_data task
+[2025-08-14T22:21:04.883+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2025-08-14T22:21:04.891+0000] {subprocess.py:93} INFO -   File "batch_data_consumer.py", line 9, in <module>
+[2025-08-14T22:21:04.895+0000] {subprocess.py:93} INFO -     from confluent_kafka import Consumer
+[2025-08-14T22:21:04.897+0000] {subprocess.py:93} INFO - ModuleNotFoundError: No module named 'confluent_kafka'
+[2025-08-14T22:21:05.007+0000] {subprocess.py:93} INFO - Task completed successfully
+[2025-08-14T22:21:05.009+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-08-14T22:21:05.120+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=stock_market_pipeline, task_id=consume_historical_data, execution_date=20250814T222100, start_date=20250814T222104, end_date=20250814T222105
+[2025-08-14T22:21:05.168+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-08-14T22:21:05.274+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

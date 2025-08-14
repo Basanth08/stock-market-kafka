@@ -1,0 +1,43 @@
+[2025-08-14T01:44:20.680+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_market_batch_pipeline.fetch_historical_data __airflow_temporary_run_2025-08-14T01:44:19.731350+00:00__ [queued]>
+[2025-08-14T01:44:20.687+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_market_batch_pipeline.fetch_historical_data __airflow_temporary_run_2025-08-14T01:44:19.731350+00:00__ [queued]>
+[2025-08-14T01:44:20.688+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-08-14T01:44:20.714+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): fetch_historical_data> on 2025-08-14 00:00:00+00:00
+[2025-08-14T01:44:20.721+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'stock_market_batch_pipeline', 'fetch_historical_data', '__***_temporary_run_2025-08-14T01:44:19.731350+00:00__', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/stock_market_batch_dag.py', '--cfg-path', '/tmp/tmp9gngvl_q']
+[2025-08-14T01:44:20.719+0000] {standard_task_runner.py:60} INFO - Started process 71912 to run task
+[2025-08-14T01:44:20.723+0000] {standard_task_runner.py:88} INFO - Job 6: Subtask fetch_historical_data
+[2025-08-14T01:44:20.750+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/settings.py:194 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-08-14T01:44:20.795+0000] {task_command.py:423} INFO - Running <TaskInstance: stock_market_batch_pipeline.fetch_historical_data __airflow_temporary_run_2025-08-14T01:44:19.731350+00:00__ [running]> on host 6ea13209f7fc
+[2025-08-14T01:44:20.917+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Basanth Kumar' AIRFLOW_CTX_DAG_ID='stock_market_batch_pipeline' AIRFLOW_CTX_TASK_ID='fetch_historical_data' AIRFLOW_CTX_EXECUTION_DATE='2025-08-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='__***_temporary_run_2025-08-14T01:44:19.731350+00:00__'
+[2025-08-14T01:44:20.920+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-08-14T01:44:20.923+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python /opt/***/dags/scripts/batch_data_producer.py 2025-08-14']
+[2025-08-14T01:44:20.937+0000] {subprocess.py:86} INFO - Output:
+[2025-08-14T01:44:22.130+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2025-08-14T01:44:22.136+0000] {subprocess.py:93} INFO -   File "/opt/***/dags/scripts/batch_data_producer.py", line 8, in <module>
+[2025-08-14T01:44:22.137+0000] {subprocess.py:93} INFO -     import yfinance as yf
+[2025-08-14T01:44:22.137+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/yfinance/__init__.py", line 26, in <module>
+[2025-08-14T01:44:22.137+0000] {subprocess.py:93} INFO -     from .tickers import Tickers
+[2025-08-14T01:44:22.137+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/yfinance/tickers.py", line 26, in <module>
+[2025-08-14T01:44:22.137+0000] {subprocess.py:93} INFO -     from . import Ticker, multi
+[2025-08-14T01:44:22.138+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/yfinance/multi.py", line 30, in <module>
+[2025-08-14T01:44:22.138+0000] {subprocess.py:93} INFO -     import multitasking as _multitasking
+[2025-08-14T01:44:22.139+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/multitasking/__init__.py", line 36, in <module>
+[2025-08-14T01:44:22.139+0000] {subprocess.py:93} INFO -     class PoolConfig(TypedDict):
+[2025-08-14T01:44:22.139+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/multitasking/__init__.py", line 44, in PoolConfig
+[2025-08-14T01:44:22.139+0000] {subprocess.py:93} INFO -     engine: Union[type[Thread], type[Process]]  # Execution engine
+[2025-08-14T01:44:22.140+0000] {subprocess.py:93} INFO - TypeError: 'type' object is not subscriptable
+[2025-08-14T01:44:22.266+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2025-08-14T01:44:22.305+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-08-14T01:44:22.311+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=stock_market_batch_pipeline, task_id=fetch_historical_data, execution_date=20250814T000000, start_date=20250814T014420, end_date=20250814T014422
+[2025-08-14T01:44:22.349+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 6 for task fetch_historical_data ((psycopg2.errors.ForeignKeyViolation) insert or update on table "task_fail" violates foreign key constraint "task_fail_ti_fkey"
+DETAIL:  Key (dag_id, task_id, run_id, map_index)=(stock_market_batch_pipeline, fetch_historical_data, __airflow_temporary_run_2025-08-14T01:44:19.731350+00:00__, -1) is not present in table "task_instance".
+
+[SQL: INSERT INTO task_fail (task_id, dag_id, run_id, map_index, start_date, end_date, duration) VALUES (%(task_id)s, %(dag_id)s, %(run_id)s, %(map_index)s, %(start_date)s, %(end_date)s, %(duration)s) RETURNING task_fail.id]
+[parameters: {'task_id': 'fetch_historical_data', 'dag_id': 'stock_market_batch_pipeline', 'run_id': '__airflow_temporary_run_2025-08-14T01:44:19.731350+00:00__', 'map_index': -1, 'start_date': datetime.datetime(2025, 8, 14, 1, 44, 20, 680998, tzinfo=Timezone('UTC')), 'end_date': datetime.datetime(2025, 8, 14, 1, 44, 22, 309664, tzinfo=Timezone('UTC')), 'duration': 1}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj); 71912)
+[2025-08-14T01:44:22.400+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1

@@ -23,15 +23,15 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-KAFKA_BOOTSTRAP_SERVERS = "kafka:9092"
-KAFKA_TOPIC_BATCH = "stock-market-batch"
-KAFKA_GROUP_ID =  "stock-market-batch-consumer-group"
+KAFKA_BOOTSTRAP_SERVERS = os.getenv('KAFKA_BOOTSTRAP_SERVERS', 'host.docker.internal:29092')
+KAFKA_TOPIC_BATCH = os.getenv('KAFKA_TOPIC_BATCH', 'stock_market_batch')
+KAFKA_GROUP_ID = os.getenv('KAFKA_GROUP_BATCH_ID', 'stock-market-batch-consumer-group-v2')
 
 #MinIO configuration
-MINIO_ACCESS_KEY = "minioadmin"
-MINIO_SECRET_KEY = "minioadmin"
-MINIO_BUCKET = "stock-market-data"
-MINIO_ENDPOINT = "minio:9000"
+MINIO_ACCESS_KEY = os.getenv('MINIO_ACCESS_KEY', 'minioadmin')
+MINIO_SECRET_KEY = os.getenv('MINIO_SECRET_KEY', 'minioadmin')
+MINIO_BUCKET = os.getenv('MINIO_BUCKET', 'stock-market-data')
+MINIO_ENDPOINT = os.getenv('MINIO_ENDPOINT', 'host.docker.internal:9000')
 
 def create_minio_client():
     """Initialize MinIO Client."""

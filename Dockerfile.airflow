@@ -1,0 +1,45 @@
+FROM apache/airflow:2.8.1
+
+# Switch to root for system packages
+USER root
+
+# Install system dependencies and build tools
+RUN apt-get update && apt-get install -y \
+    gcc \
+    g++ \
+    python3-dev \
+    build-essential \
+    libxml2-dev \
+    libxslt1-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Switch back to airflow user
+USER airflow
+
+# Prevent user package installation conflicts
+ENV PYTHONNOUSERSITE=1
+ENV PYTHONPATH=/usr/local/lib/python3.8/site-packages
+
+# Remove any existing user packages to start clean
+RUN rm -rf /home/airflow/.local/lib/python3.8/site-packages/* || true
+
+# Install all required packages in system location with specific versions
+RUN pip install --upgrade pip && \
+    pip install \
+    confluent-kafka==2.3.0 \
+    yfinance==0.2.18 \
+    pandas==1.5.3 \
+    boto3==1.26.137 \
+    snowflake-connector-python==3.0.4 \
+    minio==7.1.17 \
+    "multitasking<0.0.12"
+
+# Verify installation
+RUN python -c "import yfinance, multitasking, confluent_kafka, boto3, minio; print('✅ All packages imported successfully')"
+
+# Copy your DAG files (optional, or mount as volume)
+# COPY dags/ /opt/airflow/dags/
+# COPY scripts/ /opt/airflow/dags/scripts/
+
+# Set working directory
+WORKDIR /opt/airflow 

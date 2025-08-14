@@ -1,0 +1,305 @@
+[2025-08-14T22:07:23.259+0000] {processor.py:161} INFO - Started process (PID=33165) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:07:23.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:07:23.265+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:07:23.265+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:07:23.333+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:07:23.837+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:07:23.834+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:stock_market_bulletproof
+[2025-08-14T22:07:23.854+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:07:23.854+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:stock_market_bulletproof
+[2025-08-14T22:07:23.885+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:07:23.884+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:stock_market_bulletproof
+[2025-08-14T22:07:23.887+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:07:23.887+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:07:23.959+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:07:23.959+0000] {dag.py:3058} INFO - Creating ORM DAG for stock_market_bulletproof
+[2025-08-14T22:07:23.961+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:07:23.961+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:07:24.056+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.807 seconds
+[2025-08-14T22:07:34.835+0000] {processor.py:161} INFO - Started process (PID=33185) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:07:34.839+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:07:34.840+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:07:34.840+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:07:34.890+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:07:34.942+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:07:34.941+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:07:34.981+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:07:34.981+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:07:35.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.203 seconds
+[2025-08-14T22:07:45.301+0000] {processor.py:161} INFO - Started process (PID=33205) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:07:45.309+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:07:45.312+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:07:45.312+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:07:45.361+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:07:45.411+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:07:45.410+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:07:45.541+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:07:45.540+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:07:45.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.349 seconds
+[2025-08-14T22:07:56.746+0000] {processor.py:161} INFO - Started process (PID=33225) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:07:56.749+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:07:56.751+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:07:56.750+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:07:56.802+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:07:57.064+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:07:57.064+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:07:57.083+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:07:57.083+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:07:57.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.371 seconds
+[2025-08-14T22:08:00.211+0000] {processor.py:161} INFO - Started process (PID=33230) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:08:00.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:08:00.218+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:08:00.217+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:08:00.270+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:08:00.423+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:08:00.423+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:08:00.458+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:08:00.458+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:08:00.482+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.291 seconds
+[2025-08-14T22:08:11.249+0000] {processor.py:161} INFO - Started process (PID=33250) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:08:11.254+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:08:11.255+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:08:11.255+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:08:11.341+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:08:11.418+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:08:11.418+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:08:11.437+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:08:11.437+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:08:11.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.223 seconds
+[2025-08-14T22:08:22.014+0000] {processor.py:161} INFO - Started process (PID=33270) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:08:22.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:08:22.022+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:08:22.021+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:08:22.099+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:08:22.308+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:08:22.308+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:08:22.386+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:08:22.384+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:08:22.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.485 seconds
+[2025-08-14T22:08:35.654+0000] {processor.py:161} INFO - Started process (PID=33290) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:08:35.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:08:35.845+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:08:35.836+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:08:36.442+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:08:36.653+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:08:36.652+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:08:36.692+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:08:36.691+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:08:36.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 1.443 seconds
+[2025-08-14T22:08:47.874+0000] {processor.py:161} INFO - Started process (PID=33310) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:08:47.879+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:08:47.881+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:08:47.880+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:08:47.957+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:08:47.993+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:08:47.992+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:08:48.024+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:08:48.024+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:08:48.049+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.188 seconds
+[2025-08-14T22:08:58.612+0000] {processor.py:161} INFO - Started process (PID=33330) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:08:58.617+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:08:58.620+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:08:58.618+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:08:58.682+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:08:58.739+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:08:58.738+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:08:58.787+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:08:58.787+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:08:58.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.238 seconds
+[2025-08-14T22:09:09.280+0000] {processor.py:161} INFO - Started process (PID=33350) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:09:09.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:09:09.288+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:09:09.287+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:09:09.332+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:09:09.406+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:09:09.406+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:09:09.439+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:09:09.439+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:09:09.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.197 seconds
+[2025-08-14T22:09:19.763+0000] {processor.py:161} INFO - Started process (PID=33370) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:09:19.766+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:09:19.769+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:09:19.767+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:09:19.801+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:09:19.951+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:09:19.951+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:09:19.959+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:09:19.958+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:09:19.973+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.219 seconds
+[2025-08-14T22:09:30.249+0000] {processor.py:161} INFO - Started process (PID=33390) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:09:30.251+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:09:30.253+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:09:30.253+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:09:30.284+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:09:30.309+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:09:30.309+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:09:30.328+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:09:30.328+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:09:30.361+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.135 seconds
+[2025-08-14T22:09:41.013+0000] {processor.py:161} INFO - Started process (PID=33410) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:09:41.015+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:09:41.017+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:09:41.016+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:09:41.053+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:09:41.089+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:09:41.089+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:09:41.111+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:09:41.110+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:09:41.128+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.125 seconds
+[2025-08-14T22:09:51.580+0000] {processor.py:161} INFO - Started process (PID=33430) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:09:51.582+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:09:51.584+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:09:51.583+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:09:51.620+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:09:51.675+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:09:51.675+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:09:51.692+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:09:51.692+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:09:51.709+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.152 seconds
+[2025-08-14T22:10:01.988+0000] {processor.py:161} INFO - Started process (PID=33486) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:10:01.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:10:01.992+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:10:01.991+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:10:02.027+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:10:02.079+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:10:02.079+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:10:02.097+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:10:02.097+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:10:02.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.143 seconds
+[2025-08-14T22:10:12.562+0000] {processor.py:161} INFO - Started process (PID=33506) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:10:12.570+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:10:12.574+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:10:12.572+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:10:12.616+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:10:12.707+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:10:12.707+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:10:12.739+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:10:12.738+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:10:12.803+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.257 seconds
+[2025-08-14T22:10:23.073+0000] {processor.py:161} INFO - Started process (PID=33526) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:10:23.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:10:23.087+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:10:23.087+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:10:23.165+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:10:23.291+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:10:23.291+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:10:23.314+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:10:23.314+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:10:23.413+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.371 seconds
+[2025-08-14T22:10:33.685+0000] {processor.py:161} INFO - Started process (PID=33562) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:10:33.689+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:10:33.691+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:10:33.690+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:10:33.725+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:10:33.785+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:10:33.784+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:10:33.803+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:10:33.803+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:10:33.827+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.155 seconds
+[2025-08-14T22:10:44.362+0000] {processor.py:161} INFO - Started process (PID=33582) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:10:44.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:10:44.369+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:10:44.368+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:10:44.399+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:10:44.451+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:10:44.450+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:10:44.466+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:10:44.466+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:10:44.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.135 seconds
+[2025-08-14T22:10:54.729+0000] {processor.py:161} INFO - Started process (PID=33602) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:10:54.732+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:10:54.733+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:10:54.733+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:10:54.771+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:10:54.828+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:10:54.828+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:10:54.843+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:10:54.843+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:10:54.858+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.138 seconds
+[2025-08-14T22:11:05.112+0000] {processor.py:161} INFO - Started process (PID=33622) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:11:05.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:11:05.118+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:11:05.117+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:11:05.175+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:11:06.821+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:11:06.779+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:11:07.230+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:11:07.228+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:11:07.361+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 2.261 seconds
+[2025-08-14T22:11:17.865+0000] {processor.py:161} INFO - Started process (PID=33645) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:11:17.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:11:17.903+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:11:17.900+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:11:18.045+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:11:18.259+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:11:18.258+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:11:18.373+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:11:18.372+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:11:18.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.712 seconds
+[2025-08-14T22:11:28.936+0000] {processor.py:161} INFO - Started process (PID=33662) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:11:28.944+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:11:28.946+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:11:28.945+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:11:28.982+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:11:29.240+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:11:29.239+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:11:29.271+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:11:29.271+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:11:29.289+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.379 seconds
+[2025-08-14T22:11:39.549+0000] {processor.py:161} INFO - Started process (PID=33682) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:11:39.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:11:39.559+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:11:39.558+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:11:39.585+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:11:39.636+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:11:39.635+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:11:39.650+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:11:39.650+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:11:39.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.132 seconds
+[2025-08-14T22:11:50.131+0000] {processor.py:161} INFO - Started process (PID=33702) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:11:50.138+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:11:50.140+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:11:50.139+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:11:50.172+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:11:50.231+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:11:50.231+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:11:50.259+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:11:50.259+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:11:50.346+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.231 seconds
+[2025-08-14T22:12:00.662+0000] {processor.py:161} INFO - Started process (PID=33722) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:12:00.664+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:12:00.665+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:12:00.665+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:12:00.708+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:12:00.783+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:12:00.783+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:12:00.804+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:12:00.804+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:12:00.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.182 seconds
+[2025-08-14T22:12:10.948+0000] {processor.py:161} INFO - Started process (PID=33742) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:12:10.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:12:10.953+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:12:10.952+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:12:10.989+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:12:11.055+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:12:11.055+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:12:11.078+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:12:11.078+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:12:11.097+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.173 seconds
+[2025-08-14T22:12:21.253+0000] {processor.py:161} INFO - Started process (PID=33762) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:12:21.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:12:21.259+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:12:21.258+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:12:21.327+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:12:21.413+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:12:21.413+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:12:21.430+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:12:21.429+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:12:21.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.205 seconds
+[2025-08-14T22:12:31.581+0000] {processor.py:161} INFO - Started process (PID=33782) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:12:31.586+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:12:31.594+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:12:31.593+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:12:31.624+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:12:31.676+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:12:31.676+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:12:31.694+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:12:31.694+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:12:31.710+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.146 seconds
+[2025-08-14T22:12:42.362+0000] {processor.py:161} INFO - Started process (PID=33802) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:12:42.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:12:42.366+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:12:42.366+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:12:42.402+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:12:42.453+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:12:42.453+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:12:42.474+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:12:42.474+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:12:42.490+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.153 seconds
+[2025-08-14T22:12:53.079+0000] {processor.py:161} INFO - Started process (PID=33822) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:12:53.083+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:12:53.085+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:12:53.084+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:12:53.117+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:12:53.180+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:12:53.179+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:12:53.199+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:12:53.199+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:12:53.221+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.155 seconds
+[2025-08-14T22:13:03.334+0000] {processor.py:161} INFO - Started process (PID=33842) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:13:03.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:13:03.340+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:13:03.340+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:13:03.367+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:13:03.420+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:13:03.420+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:13:03.433+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:13:03.433+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:13:03.449+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.130 seconds
+[2025-08-14T22:13:13.625+0000] {processor.py:161} INFO - Started process (PID=33862) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:13:13.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:13:13.631+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:13:13.631+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:13:13.663+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:13:13.712+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:13:13.712+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:13:13.723+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:13:13.723+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:13:13.735+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.128 seconds
+[2025-08-14T22:13:25.024+0000] {processor.py:161} INFO - Started process (PID=33882) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:13:25.048+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:13:25.057+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:13:25.054+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:13:25.160+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:13:25.368+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:13:25.368+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:13:25.424+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:13:25.423+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:13:25.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.527 seconds
+[2025-08-14T22:13:36.175+0000] {processor.py:161} INFO - Started process (PID=33902) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:13:36.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:13:36.182+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:13:36.182+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:13:36.214+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:13:36.263+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:13:36.262+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:13:36.280+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:13:36.279+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:13:36.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.151 seconds
+[2025-08-14T22:13:47.185+0000] {processor.py:161} INFO - Started process (PID=33922) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:13:47.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:13:47.195+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:13:47.194+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:13:47.241+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:13:47.325+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:13:47.325+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:13:47.340+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:13:47.340+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:13:47.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.205 seconds
+[2025-08-14T22:13:58.128+0000] {processor.py:161} INFO - Started process (PID=33942) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:13:58.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:13:58.249+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:13:58.247+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:13:58.346+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:13:58.508+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:13:58.507+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:13:58.572+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:13:58.571+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:13:58.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.608 seconds
+[2025-08-14T22:14:09.044+0000] {processor.py:161} INFO - Started process (PID=33962) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:14:09.047+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:14:09.049+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:14:09.048+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:14:09.081+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:14:09.128+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:14:09.128+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:14:09.142+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:14:09.142+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:14:09.158+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.137 seconds
+[2025-08-14T22:14:19.536+0000] {processor.py:161} INFO - Started process (PID=33982) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:14:19.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:14:19.543+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:14:19.542+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:14:19.576+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:14:19.638+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:14:19.638+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:14:19.653+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:14:19.653+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:14:19.671+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.153 seconds
+[2025-08-14T22:14:30.109+0000] {processor.py:161} INFO - Started process (PID=34002) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:14:30.115+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:14:30.118+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:14:30.117+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:14:30.162+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:14:30.270+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:14:30.269+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:14:30.287+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:14:30.286+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:14:30.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.220 seconds
+[2025-08-14T22:14:40.627+0000] {processor.py:161} INFO - Started process (PID=34017) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:14:40.631+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:14:40.637+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:14:40.636+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:14:40.665+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:14:40.724+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:14:40.724+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:14:40.740+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:14:40.740+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:14:40.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.144 seconds
+[2025-08-14T22:14:51.112+0000] {processor.py:161} INFO - Started process (PID=34032) to work on /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:14:51.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_bulletproof.py for tasks to queue
+[2025-08-14T22:14:51.119+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:14:51.118+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:14:51.170+0000] {processor.py:840} INFO - DAG(s) 'stock_market_bulletproof' retrieved from /opt/airflow/dags/stock_market_bulletproof.py
+[2025-08-14T22:14:51.220+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:14:51.219+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-14T22:14:51.235+0000] {logging_mixin.py:188} INFO - [2025-08-14T22:14:51.235+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_bulletproof to None, run_after=None
+[2025-08-14T22:14:51.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_bulletproof.py took 0.161 seconds

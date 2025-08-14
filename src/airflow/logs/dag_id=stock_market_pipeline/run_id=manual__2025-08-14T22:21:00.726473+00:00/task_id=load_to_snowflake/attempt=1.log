@@ -1,0 +1,48 @@
+[2025-08-14T22:21:11.014+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_market_pipeline.load_to_snowflake manual__2025-08-14T22:21:00.726473+00:00 [queued]>
+[2025-08-14T22:21:11.019+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_market_pipeline.load_to_snowflake manual__2025-08-14T22:21:00.726473+00:00 [queued]>
+[2025-08-14T22:21:11.019+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-08-14T22:21:11.032+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): load_to_snowflake> on 2025-08-14 22:21:00.726473+00:00
+[2025-08-14T22:21:11.036+0000] {standard_task_runner.py:60} INFO - Started process 34369 to run task
+[2025-08-14T22:21:11.039+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'stock_market_pipeline', 'load_to_snowflake', 'manual__2025-08-14T22:21:00.726473+00:00', '--job-id', '65', '--raw', '--subdir', 'DAGS_FOLDER/stock_market_pipeline.py', '--cfg-path', '/tmp/tmpr783o9mi']
+[2025-08-14T22:21:11.042+0000] {standard_task_runner.py:88} INFO - Job 65: Subtask load_to_snowflake
+[2025-08-14T22:21:11.118+0000] {task_command.py:423} INFO - Running <TaskInstance: stock_market_pipeline.load_to_snowflake manual__2025-08-14T22:21:00.726473+00:00 [running]> on host 0181ae2045ff
+[2025-08-14T22:21:11.175+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Basanth Kumar' AIRFLOW_CTX_DAG_ID='stock_market_pipeline' AIRFLOW_CTX_TASK_ID='load_to_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2025-08-14T22:21:00.726473+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-08-14T22:21:00.726473+00:00'
+[2025-08-14T22:21:11.177+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-08-14T22:21:11.178+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n    echo "Starting load_to_snowflake task"\n    cd /opt/***/dags/scripts\n    python load_to_snowflake.py 2025-08-14\n    echo "Task completed successfully"\n    ']
+[2025-08-14T22:21:11.188+0000] {subprocess.py:86} INFO - Output:
+[2025-08-14T22:21:11.196+0000] {subprocess.py:93} INFO - Starting load_to_snowflake task
+[2025-08-14T22:21:12.012+0000] {subprocess.py:93} INFO - 2025-08-14 22:21:12,011 - INFO -
+[2025-08-14T22:21:12.013+0000] {subprocess.py:93} INFO - =========================================
+[2025-08-14T22:21:12.013+0000] {subprocess.py:93} INFO - 2025-08-14 22:21:12,011 - INFO - STARTING SNOWFLAKE INCREMENTAL LOAD
+[2025-08-14T22:21:12.013+0000] {subprocess.py:93} INFO - 2025-08-14 22:21:12,011 - INFO - =========================================
+[2025-08-14T22:21:12.013+0000] {subprocess.py:93} INFO - 
+[2025-08-14T22:21:12.154+0000] {subprocess.py:93} INFO - 2025-08-14 22:21:12,153 - INFO - S3 client initialized
+[2025-08-14T22:21:12.154+0000] {subprocess.py:93} INFO - 2025-08-14 22:21:12,154 - INFO - Snowflake Connector for Python Version: 3.6.0, Python Version: 3.8.18, Platform: Linux-6.10.14-linuxkit-aarch64-with-glibc2.34
+[2025-08-14T22:21:12.155+0000] {subprocess.py:93} INFO - 2025-08-14 22:21:12,155 - ERROR - Failed to establish Snowflake connection: 251006: 251006: Password is empty
+[2025-08-14T22:21:12.156+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2025-08-14T22:21:12.156+0000] {subprocess.py:93} INFO -   File "load_to_snowflake.py", line 272, in <module>
+[2025-08-14T22:21:12.156+0000] {subprocess.py:93} INFO -     main()
+[2025-08-14T22:21:12.157+0000] {subprocess.py:93} INFO -   File "load_to_snowflake.py", line 250, in main
+[2025-08-14T22:21:12.157+0000] {subprocess.py:93} INFO -     conn = init_snowflake_connection()
+[2025-08-14T22:21:12.157+0000] {subprocess.py:93} INFO -   File "load_to_snowflake.py", line 56, in init_snowflake_connection
+[2025-08-14T22:21:12.157+0000] {subprocess.py:93} INFO -     conn = snowflake.connector.connect(
+[2025-08-14T22:21:12.157+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/snowflake/connector/__init__.py", line 54, in Connect
+[2025-08-14T22:21:12.159+0000] {subprocess.py:93} INFO -     return SnowflakeConnection(**kwargs)
+[2025-08-14T22:21:12.159+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 413, in __init__
+[2025-08-14T22:21:12.159+0000] {subprocess.py:93} INFO -     self.connect(**kwargs)
+[2025-08-14T22:21:12.159+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 667, in connect
+[2025-08-14T22:21:12.160+0000] {subprocess.py:93} INFO -     self.__config(**kwargs)
+[2025-08-14T22:21:12.160+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/snowflake/connector/connection.py", line 1140, in __config
+[2025-08-14T22:21:12.160+0000] {subprocess.py:93} INFO -     Error.errorhandler_wrapper(
+[2025-08-14T22:21:12.160+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 290, in errorhandler_wrapper
+[2025-08-14T22:21:12.160+0000] {subprocess.py:93} INFO -     handed_over = Error.hand_to_other_handler(
+[2025-08-14T22:21:12.160+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 348, in hand_to_other_handler
+[2025-08-14T22:21:12.161+0000] {subprocess.py:93} INFO -     connection.errorhandler(connection, cursor, error_class, error_value)
+[2025-08-14T22:21:12.161+0000] {subprocess.py:93} INFO -   File "/home/***/.local/lib/python3.8/site-packages/snowflake/connector/errors.py", line 221, in default_errorhandler
+[2025-08-14T22:21:12.161+0000] {subprocess.py:93} INFO -     raise error_class(
+[2025-08-14T22:21:12.161+0000] {subprocess.py:93} INFO - snowflake.connector.errors.ProgrammingError: 251006: 251006: Password is empty
+[2025-08-14T22:21:12.273+0000] {subprocess.py:93} INFO - Task completed successfully
+[2025-08-14T22:21:12.274+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-08-14T22:21:12.310+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=stock_market_pipeline, task_id=load_to_snowflake, execution_date=20250814T222100, start_date=20250814T222111, end_date=20250814T222112
+[2025-08-14T22:21:12.329+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-08-14T22:21:12.380+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

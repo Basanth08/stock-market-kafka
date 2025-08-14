@@ -1,0 +1,22 @@
+[2025-08-14T22:09:58.025+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock_market_bulletproof.fetch_historical_data manual__2025-08-14T22:08:53+00:00 [queued]>
+[2025-08-14T22:09:58.032+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock_market_bulletproof.fetch_historical_data manual__2025-08-14T22:08:53+00:00 [queued]>
+[2025-08-14T22:09:58.033+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-08-14T22:09:58.047+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): fetch_historical_data> on 2025-08-14 22:08:53+00:00
+[2025-08-14T22:09:58.055+0000] {standard_task_runner.py:60} INFO - Started process 33451 to run task
+[2025-08-14T22:09:58.059+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'stock_market_bulletproof', 'fetch_historical_data', 'manual__2025-08-14T22:08:53+00:00', '--job-id', '57', '--raw', '--subdir', 'DAGS_FOLDER/stock_market_bulletproof.py', '--cfg-path', '/tmp/tmp12gcfv_t']
+[2025-08-14T22:09:58.061+0000] {standard_task_runner.py:88} INFO - Job 57: Subtask fetch_historical_data
+[2025-08-14T22:09:58.112+0000] {task_command.py:423} INFO - Running <TaskInstance: stock_market_bulletproof.fetch_historical_data manual__2025-08-14T22:08:53+00:00 [running]> on host 0181ae2045ff
+[2025-08-14T22:09:58.191+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Basanth Kumar' AIRFLOW_CTX_DAG_ID='stock_market_bulletproof' AIRFLOW_CTX_TASK_ID='fetch_historical_data' AIRFLOW_CTX_EXECUTION_DATE='2025-08-14T22:08:53+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-08-14T22:08:53+00:00'
+[2025-08-14T22:09:58.193+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-08-14T22:09:58.194+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n    echo "Starting fetch_historical_data task"\n    cd /opt/***/dags/scripts\n    python batch_data_producer.py 2025-08-14\n    echo "Task completed successfully"\n    ']
+[2025-08-14T22:09:58.207+0000] {subprocess.py:86} INFO - Output:
+[2025-08-14T22:09:58.212+0000] {subprocess.py:93} INFO - Starting fetch_historical_data task
+[2025-08-14T22:09:58.971+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2025-08-14T22:09:58.983+0000] {subprocess.py:93} INFO -   File "batch_data_producer.py", line 8, in <module>
+[2025-08-14T22:09:58.983+0000] {subprocess.py:93} INFO -     import yfinance as yf
+[2025-08-14T22:09:58.984+0000] {subprocess.py:93} INFO - ModuleNotFoundError: No module named 'yfinance'
+[2025-08-14T22:09:59.034+0000] {subprocess.py:93} INFO - Task completed successfully
+[2025-08-14T22:09:59.035+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-08-14T22:09:59.112+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=stock_market_bulletproof, task_id=fetch_historical_data, execution_date=20250814T220853, start_date=20250814T220958, end_date=20250814T220959
+[2025-08-14T22:09:59.162+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-08-14T22:09:59.243+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
