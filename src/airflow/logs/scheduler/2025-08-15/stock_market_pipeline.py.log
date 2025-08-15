@@ -33,3 +33,80 @@
 [2025-08-15T00:00:48.994+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:00:48.993+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-08-15T00:00:49.009+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:00:49.009+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_pipeline to None, run_after=None
 [2025-08-15T00:00:49.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_pipeline.py took 0.227 seconds
+[2025-08-15T00:00:59.300+0000] {processor.py:161} INFO - Started process (PID=39942) to work on /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:00:59.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_pipeline.py for tasks to queue
+[2025-08-15T00:00:59.318+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:00:59.317+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:00:59.368+0000] {processor.py:840} INFO - DAG(s) 'stock_market_pipeline' retrieved from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:00:59.431+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:00:59.431+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-15T00:00:59.449+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:00:59.448+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_pipeline to None, run_after=None
+[2025-08-15T00:00:59.472+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_pipeline.py took 0.191 seconds
+[2025-08-15T00:01:09.641+0000] {processor.py:161} INFO - Started process (PID=39952) to work on /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:01:09.643+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_pipeline.py for tasks to queue
+[2025-08-15T00:01:09.644+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:01:09.644+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:01:09.676+0000] {processor.py:840} INFO - DAG(s) 'stock_market_pipeline' retrieved from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:01:09.709+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:01:09.708+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-15T00:01:09.720+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:01:09.720+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_pipeline to None, run_after=None
+[2025-08-15T00:01:09.730+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_pipeline.py took 0.099 seconds
+[2025-08-15T00:01:19.872+0000] {processor.py:161} INFO - Started process (PID=39962) to work on /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:01:19.874+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_pipeline.py for tasks to queue
+[2025-08-15T00:01:19.876+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:01:19.875+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:01:19.914+0000] {processor.py:840} INFO - DAG(s) 'stock_market_pipeline' retrieved from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:01:19.956+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:01:19.955+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-15T00:01:19.968+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:01:19.968+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_pipeline to None, run_after=None
+[2025-08-15T00:01:19.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_pipeline.py took 0.119 seconds
+[2025-08-15T00:01:30.584+0000] {processor.py:161} INFO - Started process (PID=39971) to work on /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:01:30.588+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_pipeline.py for tasks to queue
+[2025-08-15T00:01:30.589+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:01:30.589+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:01:30.630+0000] {processor.py:840} INFO - DAG(s) 'stock_market_pipeline' retrieved from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:01:30.698+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:01:30.698+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-15T00:01:30.711+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:01:30.711+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_pipeline to None, run_after=None
+[2025-08-15T00:01:30.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_pipeline.py took 0.150 seconds
+[2025-08-15T00:01:40.830+0000] {processor.py:161} INFO - Started process (PID=39982) to work on /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:01:40.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_pipeline.py for tasks to queue
+[2025-08-15T00:01:40.832+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:01:40.832+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:01:40.856+0000] {processor.py:840} INFO - DAG(s) 'stock_market_pipeline' retrieved from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:01:40.892+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:01:40.891+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-15T00:01:40.902+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:01:40.901+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_pipeline to None, run_after=None
+[2025-08-15T00:01:40.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_pipeline.py took 0.086 seconds
+[2025-08-15T00:01:51.120+0000] {processor.py:161} INFO - Started process (PID=39992) to work on /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:01:51.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_pipeline.py for tasks to queue
+[2025-08-15T00:01:51.127+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:01:51.127+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:01:51.162+0000] {processor.py:840} INFO - DAG(s) 'stock_market_pipeline' retrieved from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:01:51.221+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:01:51.221+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-15T00:01:51.240+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:01:51.240+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_pipeline to None, run_after=None
+[2025-08-15T00:01:51.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_pipeline.py took 0.147 seconds
+[2025-08-15T00:02:01.415+0000] {processor.py:161} INFO - Started process (PID=40002) to work on /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:02:01.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_pipeline.py for tasks to queue
+[2025-08-15T00:02:01.419+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:02:01.419+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:02:01.453+0000] {processor.py:840} INFO - DAG(s) 'stock_market_pipeline' retrieved from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:02:01.492+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:02:01.492+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-15T00:02:01.502+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:02:01.502+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_pipeline to None, run_after=None
+[2025-08-15T00:02:01.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_pipeline.py took 0.110 seconds
+[2025-08-15T00:02:11.646+0000] {processor.py:161} INFO - Started process (PID=40012) to work on /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:02:11.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_pipeline.py for tasks to queue
+[2025-08-15T00:02:11.649+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:02:11.649+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:02:11.681+0000] {processor.py:840} INFO - DAG(s) 'stock_market_pipeline' retrieved from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:02:11.727+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:02:11.726+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-15T00:02:11.740+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:02:11.740+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_pipeline to None, run_after=None
+[2025-08-15T00:02:11.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_pipeline.py took 0.121 seconds
+[2025-08-15T00:02:21.924+0000] {processor.py:161} INFO - Started process (PID=40022) to work on /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:02:21.928+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_pipeline.py for tasks to queue
+[2025-08-15T00:02:21.930+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:02:21.930+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:02:21.974+0000] {processor.py:840} INFO - DAG(s) 'stock_market_pipeline' retrieved from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:02:22.030+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:02:22.030+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-15T00:02:22.046+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:02:22.046+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_pipeline to None, run_after=None
+[2025-08-15T00:02:22.056+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_pipeline.py took 0.141 seconds
+[2025-08-15T00:02:33.062+0000] {processor.py:161} INFO - Started process (PID=40032) to work on /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:02:33.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_pipeline.py for tasks to queue
+[2025-08-15T00:02:33.065+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:02:33.065+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:02:33.098+0000] {processor.py:840} INFO - DAG(s) 'stock_market_pipeline' retrieved from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:02:33.140+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:02:33.140+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-15T00:02:33.151+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:02:33.151+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_pipeline to None, run_after=None
+[2025-08-15T00:02:33.162+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_pipeline.py took 0.109 seconds
+[2025-08-15T00:02:43.391+0000] {processor.py:161} INFO - Started process (PID=40042) to work on /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:02:43.393+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/stock_market_pipeline.py for tasks to queue
+[2025-08-15T00:02:43.395+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:02:43.395+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:02:43.426+0000] {processor.py:840} INFO - DAG(s) 'stock_market_pipeline' retrieved from /opt/airflow/dags/stock_market_pipeline.py
+[2025-08-15T00:02:43.467+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:02:43.467+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-15T00:02:43.476+0000] {logging_mixin.py:188} INFO - [2025-08-15T00:02:43.476+0000] {dag.py:3823} INFO - Setting next_dagrun for stock_market_pipeline to None, run_after=None
+[2025-08-15T00:02:43.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/stock_market_pipeline.py took 0.110 seconds
