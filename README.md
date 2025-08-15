@@ -7,6 +7,9 @@
 
 **I have successfully built and deployed a complete, enterprise-grade real-time stock market data engineering platform that demonstrates mastery of modern data engineering technologies and best practices.** This project showcases my ability to design, implement, and orchestrate end-to-end data pipelines using industry-standard tools and frameworks.
 
+![Project Architecture & Execution Plan](images/plan.jpg)
+*Figure 1: Complete Project Architecture & Execution Plan - End-to-End Data Engineering Platform Design*
+
 ### 🚀 Platform Status: COMPLETE & FULLY OPERATIONAL
 
 **What I've Accomplished:**
@@ -71,6 +74,15 @@ I successfully created a **professional data lake** with MinIO:
 - **Data Types**: Historical batch data + real-time streaming data
 - **Accessibility**: S3-compatible interface for easy data access and processing
 
+![MinIO Data Lake - Historical Batch Data Storage](images/Minio.png)
+*Figure 2: MinIO Data Lake Success - Historical Batch Data Successfully Stored with Professional Organization*
+
+![MinIO Data Lake - Real-Time Streaming Data Storage](images/Minio1.png)
+*Figure 3: MinIO Data Lake Success - Real-Time Streaming Data Successfully Stored with Live Updates*
+
+![MinIO Real-Time Data Flow - Continuous Streaming Pipeline](images/realtime-minio.png)
+*Figure 4: MinIO Real-Time Data Flow - Continuous Streaming Pipeline Successfully Processing Live Market Data*
+
 ### 🚀 Phase 3: Apache Spark Analytics Pipeline Success
 
 **Spark Batch Processor Achievement:**
@@ -120,6 +132,12 @@ I successfully overcame **multiple technical challenges** to achieve complete wo
   - load_to_snowflake: SUCCESS (2s)
   - pipeline_success: SUCCESS (1s)
 
+![Apache Airflow Web Interface - Professional Workflow Orchestration Platform](images/Airfflow.png)
+*Figure 5: Apache Airflow Web Interface - Professional Workflow Orchestration Platform Successfully Deployed*
+
+![Airflow Pipeline Execution Success - Complete Pipeline Execution](images/AirflowExecution.png)
+*Figure 6: Airflow Pipeline Execution Success - Complete End-to-End Pipeline Successfully Executed*
+
 ### 🚀 Phase 5: Snowflake Data Warehouse Integration Success
 
 **Complete Snowflake Achievement:**
@@ -141,6 +159,9 @@ I successfully integrated **enterprise-grade data warehousing**:
 - **Complete End-to-End Pipeline**: From raw data to data warehouse
 - **Business Intelligence Ready**: Data structured for analytics and reporting
 - **Production Quality**: Enterprise-grade reliability and performance
+
+![Snowflake Data Warehouse Integration Success - Complete End-to-End Data Pipeline Operational!](images/SnowflakeLoad.png)
+*Figure 7: Snowflake Data Warehouse Integration Success - Complete End-to-End Data Pipeline Operational!*
 
 ---
 
@@ -325,6 +346,9 @@ After extensive debugging and multiple iterations, I created the **final, workin
 ---
 
 ## 🚀 Getting Started - Complete Execution Guide for All Components
+
+![Complete Platform Architecture - Ready for Execution](images/plan.jpg)
+*Figure 8: Complete Platform Architecture - Ready for Execution - All Components Integrated and Operational*
 
 ### Prerequisites & System Requirements - What I Need Before Starting:
 
@@ -890,6 +914,9 @@ python verify_data.py
 ---
 
 ## 🚀 COMPLETE PLATFORM SUCCESS SUMMARY
+
+![Complete Platform Success - All Components Operational](images/plan.jpg)
+*Figure 9: Complete Platform Success - All Components Operational - End-to-End Data Engineering Platform Successfully Deployed*
 
 ### What I've Accomplished - A Complete Data Engineering Masterpiece
 
