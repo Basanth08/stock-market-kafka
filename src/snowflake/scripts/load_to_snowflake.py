@@ -1,49 +1,45 @@
-import logging
-import sys
-import traceback
-from datetime import datetime, timedelta
-
-import boto3
-import numpy as np
-
-import pandas as pd
+#!/usr/bin/env python3
+"""
+Snowflake Data Loader Script
+This script loads processed stock market data from MinIO into Snowflake.
+"""
 
 import snowflake.connector
-import io 
+import boto3
+import pandas as pd
+import numpy as np
+import io
+import sys
+import logging
+from datetime import datetime, timedelta
+from dotenv import load_dotenv
 
-SNOWFLAKE_PASSWORD = ''
+# Load environment variables
+load_dotenv()
 
 # Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.StreamHandler(sys.stdout)
-    ]
-)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# S3/MinIO configuration
-S3_ENDPOINT = 'http://localhost:9000'  # Adjust if MinIO is not accessible at this endpoint
-S3_ACCESS_KEY = 'minioadmin'
-S3_SECRET_KEY = 'minioadmin'
-S3_BUCKET = 'stock-market-data'
-
-#Snowflake Config
-SNOWFLAKE_ACCOUNT = 'VPZRLQT-TT86916'
-SNOWFLAKE_USER = 'DATAVIDHYA123'
+# Snowflake Configuration
+SNOWFLAKE_ACCOUNT = '[YOUR_ACCOUNT_ID]'
+SNOWFLAKE_USER = '[YOUR_USERNAME]'
 SNOWFLAKE_DATABASE = "STOCKMARKETBATCH"
 SNOWFLAKE_SCHEMA = "PUBLIC"
 SNOWFLAKE_WAREHOUSE = "COMPUTE_WH"
 SNOWFLAKE_TABLE = "DAILY_STOCK_METRICS"
+SNOWFLAKE_PASSWORD = '[YOUR_PASSWORD]'
+
+# MinIO Configuration
+S3_BUCKET = "stock-market-data"
 
 def init_s3_client():
     try:
         s3_client = boto3.client(
             's3',
-            endpoint_url=S3_ENDPOINT,
-            aws_access_key_id=S3_ACCESS_KEY,
-            aws_secret_access_key=S3_SECRET_KEY
+            endpoint_url='http://localhost:9000',  # Adjust if MinIO is not accessible at this endpoint
+            aws_access_key_id='minioadmin',
+            aws_secret_access_key='minioadmin'
         )
         logger.info(f"S3 client initialized")
         return s3_client
@@ -95,7 +91,7 @@ def create_snowflake_table(conn):
         cursor.close()
 
 def read_processed_data(s3_client, execution_date):
-    logger.info(f"\n------ Raading Processed Data-------")
+    logger.info("------ Reading Processed Data ------")
 
     s3_prefix = f"processed/historical/date={execution_date}"
     logger.info(f"Reading data from s3://{S3_BUCKET}/{s3_prefix}")
@@ -153,7 +149,6 @@ def read_processed_data(s3_client, execution_date):
         processed_df['late_updated'] = datetime.now()
         processed_df = processed_df.drop_duplicates(subset=['symbol','date'], keep='last')
 
-
         required_columns = {
             "symbol": "symbol",
             "date": "date",
@@ -173,7 +168,7 @@ def read_processed_data(s3_client, execution_date):
         return None
 
 def incremental_load_to_snowflake(conn, df):
-    logger.info("\n----------- Performing Incremental Load into Snowflake")
+    logger.info("----------- Performing Incremental Load into Snowflake")
 
     if df is None or df.empty:
         logger.info("No data to load")
@@ -196,7 +191,7 @@ def incremental_load_to_snowflake(conn, df):
         for record in records:
             record_tuple = tuple(
                 None if pd.isna(val) else
-                val.item() if isinstance(val, (pd.Timestamp, pd._libs.tslibs.nattype.NaTType)) else
+                val.item() if isinstance(val, (pd.Timestamp, np._libs.tslibs.nattype.NaTType)) else
                 float(val) if isinstance(val, (np.floating, np.float64)) else
                 int(val) if isinstance(val, (np.integer, np.int64)) else
                 val 
@@ -221,10 +216,10 @@ def incremental_load_to_snowflake(conn, df):
                 target.daily_volume = source.daily_volume,
                 target.daily_close = source.daily_close,
                 target.daily_change = source.daily_change,
-                target.last_updated = source.last_updated
+                target.late_updated = source.late_updated
         WHEN NOT MATCHED THEN
-            INSERT (symbol,date,daily_open,daily_high,daily_low,daily_volume,daily_close,daily_change, last_updated)
-            VALUES (source.symbol,source.date,source.daily_open, source.daily_high, source.daily_low, source.daily_volume, source.daily_close, source.daily_change, source.last_updated)
+            INSERT (symbol,date,daily_open,daily_high,daily_low,daily_volume,daily_close,daily_change, late_updated)
+            VALUES (source.symbol,source.date,source.daily_open, source.daily_high, source.daily_low, source.daily_volume, source.daily_close, source.daily_change, source.late_updated)
 
         """
 
@@ -239,11 +234,17 @@ def incremental_load_to_snowflake(conn, df):
 
 
 def main():
-    logger.info("\n=========================================")
+    logger.info("=========================================")
     logger.info("STARTING SNOWFLAKE INCREMENTAL LOAD")
-    logger.info("=========================================\n")
+    logger.info("=========================================")
 
-    execution_date = (datetime.now() - timedelta(days=0)).strftime("%Y-%m-%d")
+    # Get execution date from command line argument or use today
+    if len(sys.argv) > 1:
+        execution_date = sys.argv[1]
+        logger.info(f"Using execution date from command line: {execution_date}")
+    else:
+        execution_date = (datetime.now() - timedelta(days=0)).strftime("%Y-%m-%d")
+        logger.info(f"No execution date provided, using today: {execution_date}")
 
     s3_client = init_s3_client()
 
@@ -258,9 +259,9 @@ def main():
             incremental_load_to_snowflake(conn, df)
 
         else:
-            logger.info("\nNo data to load into Snowflake")
+            logger.info("No data to load into Snowflake")
     except Exception as e:
-        logger.error(f"Failed to excute commads on Snowflake: {e}")
+        logger.error(f"Failed to execute commands on Snowflake: {e}")
         sys.exit(1)
     finally:
         conn.close()
