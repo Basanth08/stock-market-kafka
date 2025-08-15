@@ -217,8 +217,6 @@ I successfully integrated **enterprise-grade data warehousing**:
 
 ### The Airflow Journey: From Debugging to Complete Success
 
-![Apache Airflow Interface](images/Airflow.png)
-
 **Apache Airflow Web Interface - Professional Workflow Orchestration Platform**
 
 On **August 14, 2025**, I achieved the **ultimate milestone** - **complete Apache Airflow workflow orchestration** that successfully executed the entire stock market data pipeline end-to-end!
